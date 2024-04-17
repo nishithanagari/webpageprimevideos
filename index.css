@@ -1,0 +1,296 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#nav1{
+    width: 100%;
+    height:50px;
+    background-color: black;
+}
+#subnav1{
+    /* border: 2px solid red; */
+    width: 70%;
+    height: inherit;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#subnav1 #primelogo{
+    /* border: 2px solid red; */
+    height: 30px;
+    width: 120px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#navitems{
+    /* border: 2px solid blue; */
+    width: 430px;
+    height: 30px;
+    font-family: "Amazon Ember,Amazon Arabic Ember,Arial,sans-serif!important";
+    color: #aaaaaa;
+    font-size: 21px;
+    position: relative;
+    /* right: 10px; */
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+#subnav2{
+    /* border: 2px blue ; */
+    width: 400px;
+    height: 30px;
+    font-family: "Amazon Ember,Amazon Arabic Ember,Arial,sans-serif!important";
+    color: #aaaaaa;
+    font-size: 21px;
+    position: relative;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#tryforfree a{
+    text-decoration: none;
+    color: #aaaaaa;
+    cursor: pointer;
+}
+#tryforfree a:hover{
+    color: white;
+    border:1px ;
+    width: 100px;
+    height: 80px;
+    background-color: rgb(46, 45, 45)
+    
+
+}
+
+
+
+
+#bgimg{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 1200px;
+    cursor: pointer;
+    
+}
+
+
+#bgimg2{
+    position: relative;
+    top: -100px;
+    cursor: pointer;
+
+}
+
+
+
+#bgimg1cont{
+    /* border: 2px solid green; */
+    width: 700px;
+    height: 250px;
+    font-family: "Amazon Ember";
+    font-size: 45px;
+    font-weight: lighter;
+    position: absolute;
+    top: 130px;
+    left: 60px;
+    color: #ffff;
+}
+
+#subcont1{
+    font-family: "Amazon Ember";
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#bgimg1cont button{
+    width: 260px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #0f79af;
+    color: #ffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+#bgimg2cont{
+    /* border: 2px solid green; */
+    width: 700px;
+    height: 250px;
+    font-family: "Amazon Ember";
+    font-size: 40px;
+    font-weight: lighter;
+    position: absolute;
+    top: 650px;
+    left: 60px;
+    color: #ffff;
+}
+
+#subcont2{
+    font-family: "Amazon Ember";
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#bgimg2cont button{
+    width: 260px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #0f79af;
+    color: #ffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+#part2{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    top: 1050px;
+}
+#channels{
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    font-family: "Amazon Ember";
+    font-size: 40px;
+    font-weight: lighter;
+    font-size: 2.8rem;
+    font-weight: lighter;
+    /* color: #ffff; */
+}
+#subpart1{
+    position: absolute;
+    top: 150px;
+    left: 60px;
+    font-weight: lighter;
+    font-size: 24px;
+    font-family: "Amazon Ember";
+}
+
+#blueimg{
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 750px;
+    top: 40px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+#part3{
+    /* border:2px solid blue ; */
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    top: 1700px;
+}
+
+#remotecont{
+    /* border: 2px solid red; */
+    width: 630px;
+    /* height: 2500px; */
+    font-size: 45px;
+    font-weight: lighter;
+    color: #ffff;
+    position: absolute;
+    top: 40px;
+    left: 800px;
+    font-family: "Amazon Ember,Arial, sans-serif";
+   
+
+
+}
+
+
+#subremotecont{
+    font-family: "Amazon Ember";
+    font-size: 20px;
+    font-weight: lighter;
+  
+    font-family: "Amazon Ember,Arial, sans-serif";
+    line-height: 20px;
+}
+
+
+#remotecont button{
+    width: 260px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #0f79af;
+    color: #ffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+#footer{
+    /* border: 2px solid red; */
+    /* height: 200px; */
+    background-color: #222222;
+    width: 100%;
+    position: absolute;
+    top: 2150px;
+
+}
+
+#subfooter{
+    /* border: 2px solid green; */
+    height: inherit;
+    width: 25%;
+    margin: auto;
+    
+}
+
+#subfooter img{
+    padding-left: 150px;
+    padding-top: 50px   ;
+}
+
+#anchoritems  {
+    /* border: 2px solid green; */
+     margin-top: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#anchoritems a{
+    text-decoration: none;
+    text-align: center;
+    color: #0f79af;
+}
+
+#copyright{
+    color: #949494;
+    margin-top: 28px;
+    text-align: center;
+
+
+}
